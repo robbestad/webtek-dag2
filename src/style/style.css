@@ -2,3 +2,38 @@
     height:180px;
     width:180px;
 }
+
+header{
+    padding:20px;
+    background-color:salmon;
+}
+footer{
+    padding:20px;
+    background-color:salmon;
+}
+nav{
+    padding:10px;
+    background-color:fuchsia;
+}
+nav>ul{
+    padding:10px;
+    list-style:none;
+
+}
+nav>ul>li{
+    padding:10px;
+    color:white;
+    font-size:1.6em;
+    font-weight:bold;
+}
+section{
+    padding:10px 10px 0 15px;
+    background-color:fuchsia;
+    min-height:100%;
+    color:white;
+    font-size:1.6em;
+    text-shadow: 2px 5px 2px brown;
+}
+div.image{
+    background-color: cadetblue;
+}

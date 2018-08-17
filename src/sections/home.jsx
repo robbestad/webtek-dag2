@@ -1,5 +1,7 @@
 import React from "react";
 
 export default () => <section>
-	<div className="flex-wrapper" id="cards">test</div>
+	<div className="hero">
+		Velkommen til den internasjonale hunde- og kattesiden.
+	</div>
 </section>
