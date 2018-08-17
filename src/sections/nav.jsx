@@ -1,8 +1,13 @@
 import React from "react";
+import { Link } from "@reach/router";
 
 export default () => <nav>
 	<ul>
-		<li><a href="index.html">Bilder!</a></li>
-		<li><a href="upload.html">Last opp!</a></li>
+		<li>
+			<Link to="/">Hjem</Link>
+		</li>
+		<li>
+			<Link to="/images">Bilder</Link>
+		</li>
 	</ul>
 </nav>
