@@ -58,5 +58,4 @@ module.exports.serve = {
 		};
 		app.use(convert(history(historyOptions)));
 	}
-
 }

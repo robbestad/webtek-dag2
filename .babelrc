@@ -2,6 +2,9 @@
   "env":{
     "development": {
       "presets": ["@babel/preset-env", "@babel/preset-react"]
+    },
+    "production": {
+      "presets": ["@babel/preset-env", "@babel/preset-react"]
     }
   }
 }
