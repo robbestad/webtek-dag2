@@ -11,6 +11,7 @@ module.exports = {
 	plugins: [
 		new HtmlWebpackPlugin(
 			{
+				title: 'Bedre enn Instagram',
 				template: path.resolve(__dirname, "src/index.html")
 			}
 		)
@@ -35,6 +36,7 @@ module.exports = {
 		]
 	},
 	resolve:{
+		extensions: [".js", ".jsx"],
 		alias: {
 			src: path.resolve(__dirname ,"src")
 		}
